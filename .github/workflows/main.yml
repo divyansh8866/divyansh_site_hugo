@@ -16,7 +16,7 @@ jobs:
         with:
           repository: divyansh8866/divyansh_site_content
           path: path
-          ssh-key: ${{ secrets.SSH_KEY }}
+          ssh-key: ${{ secrets.TOKEN }}
           persist-credentials: true
 
       - name: checkout submodule
