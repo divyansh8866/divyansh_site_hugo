@@ -5,16 +5,16 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Update content
-        # (Optional)If you have the content added as submodule, you can pull it and use the most updated version
-        run: git submodule update --recursive --remote
+#       - name: Update content
+#         # (Optional)If you have the content added as submodule, you can pull it and use the most updated version
+#         run: git submodule update --recursive --remote
 
-#       - name : update submodules
-#         uses: actions/checkout@v3
-#         with:
-#           submodules: recursive
+      - name : update submodules
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
