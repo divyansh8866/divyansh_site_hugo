@@ -1,0 +1,4 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:divyansh8866/divyansh_site_content.git
+	branch = main
