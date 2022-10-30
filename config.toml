@@ -3,8 +3,7 @@ languageCode = 'en-us'
 title = 'Divyansh Patels Notbook'
 theme = 'LoveIt'
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+
 
 
 [languages]
@@ -14,6 +13,8 @@ theme = 'LoveIt'
     languageName = "English"
     hasCJKLanguage = false
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [outputs]
+      home = ["HTML", "RSS", "JSON"]
     [languages.en.menu]
       [[languages.en.menu.main]]
         weight = 1
