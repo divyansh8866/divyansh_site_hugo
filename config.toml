@@ -2,8 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Divyansh Patel's Notbook'
 theme = 'LoveIt'
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
 
 [languages]
   [languages.en]

@@ -133,15 +133,12 @@
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
-    # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
     # max index length of the chunked content
-    # 文章内容最长索引长度
     contentLength = 4000
     # placeholder of the search bar
-    # 搜索框的占位提示语
     placeholder = ""
     # max number of results length
     # 最大结果数目
