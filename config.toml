@@ -80,15 +80,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/about/"
     title = ""
 
-  [[menu.main]]
-    weight = 3
-    identifier = "certification"
-    pre = ""
-    post = ""
-    name = "Certification"
-    url = "/certification/"
-    title = ""
-
 [params]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
